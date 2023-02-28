@@ -1,0 +1,417 @@
+
+
+
+
+
+
+20 Practice problems to become better at Python
+part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+1)Write a Python program to find the largest number in a list of numbers.
+
+[15, 27, 10, 12, 10, 6, 28, 2, 25, 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2)Write a Python program to calculate the sum of all numbers in a list of numbers.
+
+[15, 27, 10, 12, 10, 6, 28, 2, 25, 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3)Write a Python program to find the average of a list of numbers.
+
+[15, 27, 10, 12, 10, 6, 28, 2, 25, 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4)Write a Python program to check if a given number is prime.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5)Write a Python program to find the factorial of a number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6)Write a Python program to generate the Fibonacci sequence up to a given number.
+==>series where each number is the sum of the two that precede it.
+example:
+
+0
+1 a
+1 b a
+2 c b a
+3   c b 
+5     c 
+8 
+13 
+21 
+34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7)Write a Python program that takes a list of numbers and returns a new list with only the even numbers from the original list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8)Write a Python program to reverse a string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9)Write a Python program to check if a given string is a palindrome.
+
+
+racecar
+r a c e c a r 
+mom
+m o m 
+civic
+c i v i c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10)Write a Python program to convert a decimal number to binary.
+
+
+
+
+
+
+
+20 Practice problems to become better at Python
+part 2
+
+
+
+
+
+
+
+
+
+11)Write a program that takes a list of numbers and
+returns the sum of all even numbers in the list.
+
+[15, 27, 10, 12, 10, 6, 28, 2, 25, 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12)Write a program that prompts the user to enter a string and then prints the string backwards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13)Write a program that reads in a list of numbers and prints out the maximum and minimum values in the list.
+
+
+[15, 27, 10, 12, 10, 6, 28, 2, 25, 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14)Write a program that takes a sentence and returns the number of words in the sentence.
+
+
+
+
+The quick brown fox jumps over the lazy dog.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15)Write a program that takes a list of numbers and returns a new list containing only the prime numbers from the original list.
+
+without filter/filter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16)Write a program that prompts the user to enter a list of words and then prints out the words in alphabetical order.
+
+
+
+
+The quick brown fox jumps over the lazy dog.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17)Write a program that takes a list of numbers and returns the product of all the numbers in the list.
+[15, 27, 10, 12, 10, 6, 28, 2, 25, 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18)Write a Python program that accepts a string and calculates the number of digits and letters in the string. The program should print out the number of digits and letters in the string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19)Write a program that prompts the user to enter a string and then prints out the number of vowels in the string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20)Write a program that takes a list of numbers and returns the second highest number in the list.

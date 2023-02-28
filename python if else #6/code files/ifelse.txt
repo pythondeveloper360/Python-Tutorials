@@ -1,0 +1,229 @@
+
+
+
+
+conditionals
+=> comparing or checking the states/values of variables
+
+
+
+
+
+
+
+
+
+
+comparison operators:
+
+
+
+
+
+
+
+'<' #(less than)
+
+
+
+
+
+
+
+
+
+
+
+
+
+'>' #(greater than)
+
+
+
+
+
+
+
+
+
+
+
+'==' #(equal to)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+'<=' # (less than or equal to)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'>=' #(greater than or equal to)
+
+
+
+
+
+
+
+
+
+
+
+
+
+'!=' # (is not equal to)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'is' #(identical object)
+
+
+
+
+
+
+
+
+
+
+
+
+
+'is not' #(not identical object) 
+	
+
+
+
+
+
+if conditionals
+# only evaluates the body  if the conditon evaluates to True
+
+
+
+
+
+
+
+
+
+
+
+
+
+else clause
+# the body will only execute if the 'if statment' evaluates to False
+
+
+
+
+
+
+
+
+
+
+
+
+
+elif clause #(abbreviated for else if)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+grading system
+
+>=90 'A'
+>=80 'B'
+>=70 'C'
+>=60 'D'
+else 'F'
+
+
+
+
+
+
+
+
+
+
+
+check odd integer
+
+
+
+
+
+
+
+
+
+
+
+
+
+check leap year
+
+
+"Every year that is exactly divisible by four is a leap year except for year that are exactly diivisible by 100 but theese centuries are leap years if they are exactly divisible by 400. For example the years 1700,1800 and 1900 are not leap years , but the years 1600 and 2000 are" Wikipedia
+
+check is 1800,1900,1903,2000 and 2002 are leap years
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

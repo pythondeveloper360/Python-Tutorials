@@ -1,0 +1,344 @@
+
+
+
+
+
+Python Dictionaries
+builtin datatypes
+
+
+
+
+
+
+Python dictionary is an ordered collection of items. It stores elements in key/value pairs. Here, keys are unique identifiers that are associated with each value.
+Here is an example of capitals
+
+=> Example 1
+Pakistan -> Islamabad
+USA -> Washington DC
+Enland -> London
+dict(Pakistan = "Islamabad")
+
+=> Example 2
+1 -> One
+2 -> Two
+3 -> Three
+{1:One}
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+How to add elements to dictionary
+
+First Option
+dict[key] = value
+
+
+Second Option
+dict.update({key:value})
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+desserts = {
+    'Alice': 'chocolate cake',
+    'Bob': 'apple pie',
+    'Charlie': 'ice cream',
+    'David': 'cheesecake',
+    'Emma': 'brownies'
+}
+
+How to get value of specific key
+First option
+
+dict[key]
+#Raises error if value is undefined
+
+Second option
+dict.get(key)
+return Nonoe if value is undefined
+
+we can even add default values to .get function
+dict.get(key,default = 'Cake')
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+How to get all the available keys in dictionary?
+dict.keys()
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+How to get the all values(only) in a dictionary
+dict.values()
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+How to get a list of key-value pairs in dictionary
+dict.items()
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+How to remove item in a dictionary 
+1)
+dict.pop(key) 
+this removes and return the value associated with the key
+2)
+del dict[key]
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+How to clear all the items in dictionary
+dict.clear()
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+1)Create a dictionary of countries and their capitals. Ask the user to enter a country, and return the capital of that country. If the country is not in the dictionary, return "Sorry, we don't have information about that country."
+
+
+
+
+
+
+
+
+
+
+
+
+2)Write a program to find the word frequency in a given sentence using a dictionary. For example, if the sentence is "I love python programming language", the output should be a dictionary with each word as a key and its frequency as the value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+3)Write a program to find the maximum value in a dictionary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+4)Create a dictionary containing the names of students and their scores in a class. Write a program to print the name and score of the student with the highest score.
+
+
+
+
+
+
+
+
+
+
+
+
+
+5)Create a dictionary containing the names of fruits and their prices. Write a program to print the total cost of purchasing 5 bananas, 3 apples, and 2 mangoes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+6)Write a Python program to print a dictionary in table format. For example:
+
+students = [
+    {"name":'Alice',"age":12,"gender":'female'},
+    {"name":'Bob',"age":15,"gender":'male'},
+    {"name":'Charlie',"age":11,"gender":'male'},
+    {"name":'David',"age":13,"gender":'male'},
+    {"name":'Emma',"age":16,"gender":'female'},
+]
+
+
+
+
+
+
+

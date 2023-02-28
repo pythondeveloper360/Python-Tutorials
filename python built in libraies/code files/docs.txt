@@ -1,0 +1,327 @@
+
+
+
+
+
+Python has several built in libraries,
+we will discuss about some of them today.
+
+
+
+
+
+
+
+
+
+
+==> math module
+provides access to the mathematical functions.
+
+
+
+
+
+
+
+--math.ceil(x)
+Return the ceiling of x, the smallest integer greater than or equal to x.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--math.floor(x)
+Return the floor of x, the largest integer less than or equal to x
+
+
+
+
+
+
+
+
+
+
+math.factorial(n)
+returns the factorial
+#implementation
+
+
+
+
+
+
+
+
+
+math.comb(n, k)
+Return the number of ways to choose k items from n items without repetition and without order.
+Evaluates to n! / (k! * (n - k)!) when k <= n and evaluates to zero when k > n.
+Also called the binomial coefficient because it is equivalent to the coefficient of k-th term in polynomial expansion of (1 + x)ⁿ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+math.lcm(*integers)
+Return the least common multiple of the specified integer arguments. If all arguments are nonzero, then the returned value is the smallest positive integer that is a multiple of all arguments. If any of the arguments is zero, then the returned value is 0. lcm() without arguments returns 1.
+
+              !!!!!!!new in version 3.9!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+math.prod(iterable, *, start=1)
+Calculate the product of all the elements in the input iterable. The default start value for the product is 1.
+
+
+
+
+
+
+
+
+
+math.e
+The mathematical constant e = 2.718281…, to available precision.
+
+math.pi
+
+    The mathematical constant π = 3.141592…, to available precision.
+
+
+
+
+
+
+
+
+
+
+
+math.log(x, base = math.e)
+With one argument, return the natural logarithm of x (to base e).
+With two arguments, return the logarithm of x to the given base, calculated as log(x)/log(base).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+math.sqrt(x)
+    Return the square root of x.
+#implementation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+math.degrees(x)
+
+    Convert angle x from radians to degrees.
+
+math.radians(x)
+
+    Convert angle x from degrees to radians.
+
+
+
+
+
+
+
+
+
+
+
+math.cos(x)
+    Return the cosine of x radians.
+
+math.sin(x)
+
+    Return the sine of x radians.
+
+math.tan(x)
+
+    Return the tangent of x radians.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==> Random module
+built-in module that you can use to make random numbers or choices.
+
+
+
+
+
+
+
+
+
+
+random.seed(a)
+print(random.random())
+the generator creates a random number based on the seed value, so if the seed value is 10, you will always get 0.5714025946899135 as the first random number.
+
+
+
+
+
+
+
+
+
+
+
+
+animals = ["Lion", "Gorilla", "Tiger", "Elephant", "Bear", "Cheetah", "Hippopotamus", "Rhinoceros", "Giraffe", "Zebra"]
+
+
+-shuffle(seq)
+Shuffle the sequence.
+
+
+
+
+
+
+
+
+animals = ["Lion", "Gorilla", "Tiger", "Elephant", "Bear", "Cheetah", "Hippopotamus", "Rhinoceros", "Giraffe", "Zebra"]
+
+-choice
+Return a random element from the non-empty sequence seq
+
+
+
+
+
+
+
+
+
+random.randint(a,b)
+Return a random integer between a and b
+
+
+
+
+
+
+
+
+
+
+
+
+
+==> getpass module (Portable password input)
+
+
+
+
+
+
+
+
+
+-getpass.getpass(prompt='Password: ')
+prompt the user for a password without echoing(showing)
+
+
+
+
+
+
+
+
+
+
+-getpass.getuser()
+returns the login name of the user
+
+
+
+
+
+
+
+

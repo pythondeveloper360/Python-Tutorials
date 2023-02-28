@@ -1,0 +1,264 @@
+
+
+
+
+Built in functions in Python
+
+
+
+The Python interpreter has a number of functions built into it that are always available.
+
+
+
+
+
+
+
+
+
+
+abs(x)
+	Return the absolute value of a number. The argument may be an integer or a floating point number.
+|x|
+
+#implementation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+all(iterable)
+Return True if all elements of the iterable are true (or if the iterable is empty)
+names = ['hanzala','saad','','fahad']
+#implementation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+any(iterable)
+Return True if any element of the iterable is true. If the iterable is empty, return False
+numbers = [1, 3, 4, 0]
+#implementation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chr(i)
+Return the string representing a character whose Unicode code point is the integer i. For example, chr(97) returns the string 'a', while chr(8364) returns the string '€'.
+The valid range for the argument is from 0 through 1,114,111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+divmod(a,b)
+Take two integers as an arguments and return a pair of numbers consisting of their quotient and remainder when using integer division.
+#implementation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enumerate(iterable,start = 0)
+Return an enumerate object. iterable must be a sequence
+
+animals = ['cat','dog','elephant']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+filter(function, iterable)
+Construct an iterator from those elements of iterable for which function returns true.
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+=> filter odd
+
+
+
+
+
+map(function,iterable)
+Return an iterator that applies function to every item of iterable
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+square all the numbers in the list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+max(iterable)
+Return the largest item in an iterable.
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+
+
+
+
+
+min(iterable)
+Return the smallest item in an iterable.
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ord(c)
+Given a string representing one Unicode character, return an integer representing the Unicode code point of that character. For example, ord('a') returns the integer 97 and ord('€') (Euro sign) returns 8364. This is the inverse of chr().
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pow(base,exponent)
+return base to the power exponent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sum(iterable)
+sums the iterable
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zip(*iterables)
+Make an iterator that aggregates elements from each of the iterables.
+
+
+numbers = [1, 2, 3, 4, 5]
+alphanum = ['one','two','three','four','five']
+
+
