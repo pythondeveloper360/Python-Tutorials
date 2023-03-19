@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+Python Json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JSON(javascript Object Notation) is a syntax for storing and exchanging data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Convert from json to Python
+data = '{ "name":"John", "age":30, "city":"New York"}'
+
+json.loads()
+
+
+
+
+
+
+
+
+
+
+
+
+
+Convert from Python to json
+
+x = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+json.dumps()
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a password manager that can:
+1) generate password
+2) store password (takes website and password)
+3) retrieve password (ask for website)
+4) update password
+

@@ -1,0 +1,10 @@
+Charlie, 320 Cedar Ln., New York, 62,
+Emma, 843 Maple Ave., Dallas, 77,
+Bob, 871 Pine St., Phoenix, 32,
+Alice, 670 Birch Rd., San Antonio, 68,
+Ivy, 422 Main St., Phoenix, 58,
+Charlie, 338 Birch Rd., San Antonio, 33,
+Jack, 777 Cedar Ln., San Jose, 46,
+Henry, 227 Spruce Ave., Los Angeles, 40,
+Grace, 857 Main St., Houston, 23,
+Frank, 582 Cedar Ln., San Diego, 22

@@ -1,0 +1,6 @@
+The quick brown fox jumps over the lazy dog.
+She sells seashells by the seashore.
+The sun is shining and the birds are singing.
+Life is like a box of chocolates.
+To be or not to be, that is the question.
+Python is easy

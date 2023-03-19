@@ -1,0 +1,151 @@
+
+
+
+
+
+File Handling with Python
+
+
+
+
+
+----------------------------------------------------------
+
+
+
+open(file,mode= 't')
+opening file
+will give FileNotFoundError if file doesn't exist
+
+
+
+
+
+----------------------------------------------------------
+
+
+
+
+opening modes
+r -> read only purpose
+
+w -> for writing purpose,creates new file, if file doesn't exist (removes everything from file and then write)
+
+x -> creates new file for writing, if file already exists raises an error
+
+a -> writes the data ath the end of file without truncating it (creates new file if it doesn't exist)
+
+----------------------------------------------------------
+
+
+
+
+
+readline()
+reads and return one line from the file
+for loop
+
+
+
+
+
+---------------------------------------------------------
+
+
+
+readlines()
+reads and returns a list of lines from the file
+
+
+
+
+---------------------------------------------------------
+
+
+
+write(s)
+writes string s to the file 
+
+
+
+
+
+---------------------------------------------------------
+
+
+
+
+close()
+closes the file, it is important because it free up the 
+recources tied with the file operations
+
+
+
+
+---------------------------------------------------------
+
+
+
+
+
+a program to store the squares of n numbers to file squares.txt
+1**2 = 1
+2**2 = 4
+
+
+
+
+---------------------------------------------------------
+
+
+
+
+
+fetch all the numbers from numbers.txt and write the 
+> prime numbers to prime.txt
+> odd numbers to odd.txt
+> even numbers to even.txt
+
+
+
+
+
+----------------------------------------------------------
+
+
+
+
+
+open fruits.txt 
+count the occurences of each fruit.
+
+
+
+
+
+
+----------------------------------------------------------
+
+
+
+
+
+open details.txt
+extract all the information and store it in dictionary
+
+
+
+
+
+----------------------------------------------------------
+
+
+
+open accounts.txt
+create an authentication system that will ask for username and password and then authenticate the user.
+
+
+
+
+
+
